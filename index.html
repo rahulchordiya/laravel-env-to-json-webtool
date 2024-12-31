@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laravel .env to JSON Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Laravel .env to JSON Converter</h1>
+        <textarea id="envInput" placeholder="Paste your .env file here"></textarea>
+        <button id="convertButton">Convert to JSON</button>
+
+        <div class="output-container">
+            <textarea id="jsonOutput" readonly placeholder="JSON output will appear here"></textarea>
+            <button id="copyButton" class="copy-button" title="Copy to Clipboard">Copy</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
